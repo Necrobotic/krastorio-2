@@ -89,7 +89,6 @@ local scripts_path = "compatibility-scripts/data-final-fixes/"
 require(scripts_path .. "angels")
 require(scripts_path .. "aai-industry")
 require(scripts_path .. "aai-vehicles")
-require(scripts_path .. "aai-programmable-vehicles")
 require(scripts_path .. "aircraft")
 require(scripts_path .. "AsphaltRoads")
 -- Bobs (multiple scripts)

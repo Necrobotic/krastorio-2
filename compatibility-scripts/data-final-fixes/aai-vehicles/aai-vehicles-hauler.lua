@@ -1,6 +1,4 @@
 if mods["aai-vehicles-hauler"] and data.raw["car"]["vehicle-hauler"] then
-  data.raw["car"]["vehicle-hauler"].equipment_grid = "kr-car-grid"
-
   krastorio.recipes.overrideIngredients("vehicle-hauler", krastorio.recipes.getIngredients("car"))
   krastorio.recipes.multiplyRecipeStat("vehicle-hauler", 2)
 
